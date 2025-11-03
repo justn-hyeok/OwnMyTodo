@@ -24,6 +24,13 @@
   },
   "homepage": "https://github.com/justn-hyeok/OwnMyTodo#readme",
   "devDependencies": {
-    "husky": "^9.1.7"
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7"
+  },
+  "lint-staged": {
+    "*.dart": [
+      "dart format --fix",
+      "flutter analyze"
+    ]
   }
 }
