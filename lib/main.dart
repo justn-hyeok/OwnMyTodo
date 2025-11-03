@@ -12,11 +12,7 @@ Future<void> main() async {
     anonKey: AppConfig.supabaseAnonKey,
   );
 
-  runApp(
-    const ProviderScope(
-      child: MyApp(),
-    ),
-  );
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends ConsumerWidget {
@@ -40,10 +36,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Hello, World!'),
-      ),
-    );
+    return const Scaffold(body: Center(child: Text('Hello, World!')));
   }
 }
