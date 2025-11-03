@@ -43,3 +43,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# VS Code related
+.vscode/
+.cursor/
+.cursorrules
+
+.env
+
+node_modules/

@@ -1,0 +1,29 @@
+{
+  "name": "own_my_todo",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justn-hyeok/OwnMyTodo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/justn-hyeok/OwnMyTodo/issues"
+  },
+  "homepage": "https://github.com/justn-hyeok/OwnMyTodo#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
