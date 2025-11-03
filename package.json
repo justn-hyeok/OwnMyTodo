@@ -29,7 +29,7 @@
   },
   "lint-staged": {
     "*.dart": [
-      "dart format --fix",
+      "dart format .",
       "flutter analyze"
     ]
   }
